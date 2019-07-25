@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "nokidsplease",
+  "version": "1.0",
+
+  "description": "Hides child comments on reddit",
+
+  "background": 
+    {
+      "scripts": ["nokidsplease.js"]
+    },
+
+  "browser_action": {
+    "default_icon": "icons/NoKidsPlease.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+
+}
